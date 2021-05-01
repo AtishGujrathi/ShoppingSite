@@ -22,7 +22,7 @@ public class TestBase{
 	{
 		prop = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream("C:\\selenium\\eclipse-workspace\\Shopping\\src\\main\\java\\shopping\\configPackage\\Config.properties");
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\shopping\\configPackage\\Config.properties");
 			prop.load(fis);
 		
 		} catch (FileNotFoundException e) {

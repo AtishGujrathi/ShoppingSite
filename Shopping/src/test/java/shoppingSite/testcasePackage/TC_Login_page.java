@@ -2,9 +2,8 @@ package shoppingSite.testcasePackage;
 
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import shoppingSite.basePackage.TestBase;
@@ -20,30 +19,33 @@ public class TC_Login_page extends TestBase{
 		super();	
 	}
 	
-	@BeforeClass
+	@BeforeMethod
 	public void steup()
 	{
 		getBrowser();
 		lp = new LoginPage();	
 	}
 		
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void loginTest()
 	{
 		myAccountPage = lp.login(prop.getProperty("username"), prop.getProperty("password"));	
-	}
-	
-	@Test(priority=2)
-	public void loginPageTitle()
-	{
+		
 		String loginTitle = lp.validateLoginPageTitlle();
 		Assert.assertEquals(loginTitle, "My account - My Store");
 	}
 	
-	@AfterClass
+	@Test(priority=1)
+	public void loginPageTitle()
+	{
+		String loginTitle = lp.validateLoginPageTitlle();
+		Assert.assertEquals(loginTitle, "My Store");
+	}
+	
+	@AfterMethod
 	public void afterMethod()
 	{
-		driver.close();
+		
 		driver.quit();
 	}
 	

@@ -2,24 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43123" started-at="2021-04-18T09:50:02Z" finished-at="2021-04-18T09:50:45Z">
+  <suite name="Default suite" duration-ms="71235" started-at="2021-04-19T16:16:44Z" finished-at="2021-04-19T16:17:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43123" started-at="2021-04-18T09:50:02Z" finished-at="2021-04-18T09:50:45Z">
+    <test name="Default test" duration-ms="71235" started-at="2021-04-19T16:16:44Z" finished-at="2021-04-19T16:17:56Z">
       <class name="shoppingSite.testcasePackage.TC_Login_page">
-        <test-method status="PASS" signature="steup()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@2286778]" name="steup" is-config="true" duration-ms="33443" started-at="2021-04-18T09:50:02Z" finished-at="2021-04-18T09:50:36Z">
+        <test-method status="PASS" signature="steup()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="steup" is-config="true" duration-ms="42885" started-at="2021-04-19T16:16:44Z" finished-at="2021-04-19T16:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- steup -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:shoppingSite.testcasePackage.TC_Login_page@2286778]" name="loginTest" duration-ms="7220" started-at="2021-04-18T09:50:36Z" finished-at="2021-04-18T09:50:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginPageTitle()[pri:2, instance:shoppingSite.testcasePackage.TC_Login_page@2286778]" name="loginPageTitle" duration-ms="79" started-at="2021-04-18T09:50:43Z" finished-at="2021-04-18T09:50:43Z">
+        <test-method status="PASS" signature="loginPageTitle()[pri:1, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="loginPageTitle" duration-ms="76" started-at="2021-04-19T16:17:27Z" finished-at="2021-04-19T16:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitle -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@2286778]" name="afterMethod" is-config="true" duration-ms="2001" started-at="2021-04-18T09:50:43Z" finished-at="2021-04-18T09:50:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="afterMethod" is-config="true" duration-ms="1630" started-at="2021-04-19T16:17:27Z" finished-at="2021-04-19T16:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="steup()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="steup" is-config="true" duration-ms="15738" started-at="2021-04-19T16:17:29Z" finished-at="2021-04-19T16:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="loginTest" duration-ms="9790" started-at="2021-04-19T16:17:45Z" finished-at="2021-04-19T16:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:shoppingSite.testcasePackage.TC_Login_page@6c3708b3]" name="afterMethod" is-config="true" duration-ms="1054" started-at="2021-04-19T16:17:55Z" finished-at="2021-04-19T16:17:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
